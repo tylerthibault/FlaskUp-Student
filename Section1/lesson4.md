@@ -1,46 +1,58 @@
-# Lesson 4: List/Dictionary Comprehensions and Lambda Functions
+# Lesson 3: Functions in Python
 
-In Lesson 4, you’ll learn some advanced, but highly useful, features of Python that make your code more efficient and expressive. These tools are widely used in real-world Python code and will prepare you for object-oriented programming!
+In Lesson 3, you’ll master how to break your code into reusable, reliable functions—the foundation for building readable and maintainable Python programs.
+
+---
 
 ## What You’ll Learn
 
-- **List Comprehensions**
-  - How to quickly build lists using a single line of code
-  - Filtering data with conditionals inside comprehensions
-  - Examples: `[x*x for x in range(10)]`, `[word for word in words if len(word) > 3]`
+### Understanding Functions
+- What is a function and why use them?
+- How to define and call a function
+- The difference between parameters and arguments
+- Using default parameters and named arguments
 
-- **Dictionary Comprehensions**
-  - Build dictionaries in a compact way
-  - Examples: `{x: x*x for x in range(5)}`
+### Return Values
+- How to use `return` to get results from a function
+- What happens when you don’t use `return`
+- Returning multiple values
 
-- **Lambda Functions**
-  - What lambda (anonymous) functions are
-  - Syntax and use cases for quick, one-off functions
-  - Examples: `lambda x: x+1`
-  - Using lambdas with `map`, `filter`, and `sorted`
+### Variable Scope
+- Local vs. global variables
+- How scope affects your code and avoids bugs
+- Modifying global variables inside functions
 
-- **Practice Challenges**
-  - Write list and dictionary comprehensions based on real data
-  - Use lambda functions with common built-in functions
-  - Mini project: Filter and transform a dataset using comprehensions and lambdas
+### Writing Clear Functions
+- Adding comments to explain your code
+- Using docstrings to document what your function does, its inputs, and outputs
+- Choosing clear, descriptive function names
 
-- **Recap & Tips**
-  - When to use comprehensions and lambdas
-  - How these features make your code more “Pythonic” and readable
+### Working with Data in Functions
+- Passing and returning lists, dictionaries, and other data types
+- Converting and manipulating data inside functions
+
+### Testing & Debugging Functions
+- How to test your functions with different inputs
+- Printing outputs and using assertions
+- Common mistakes and how to fix them
+
+### Practice & Projects
+- Exercises for writing and improving functions
+- Mini project: Build a set of useful utility functions (e.g., text formatting, math calculations, list processing)
+
+### Good Habits & Next Steps
+- Why functions make your code easier to debug, test, and reuse
+- Tips for writing reliable functions
+- Where to get help: Python documentation, Stack Overflow, online tutorials
 
 ---
 
 ## Optional & Independent Research
 
-- **Set Comprehensions**
-  - How to create sets using comprehensions
-- **Advanced Lambda Usage**
-  - Research combining lambdas with other built-in functions (e.g., `reduce` from `functools`)
-- **Read Python Documentation**
-  - Explore the official docs for comprehensions and lambda functions
-
-Explore these topics on your own to deepen your understanding and become a more skilled Python programmer!
+- Learn about lambda (anonymous) functions
+- Explore built-in Python functions and how to use them
+- Practice reading Python documentation for functions
 
 ---
 
-By the end of Lesson 4, you’ll be ready for the next step: Object-Oriented Programming in Python!
+By the end of Lesson 3, you’ll be able to write clear, reusable, and well-tested functions—essential skills for any Python programmer!

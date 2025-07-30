@@ -1,45 +1,48 @@
-# Lesson 3: Modular Programming & Error Handling in Python 
+# Lesson 4: Control Flow—Decisions and Loops in Python
 
-In Lesson 3, you’ll learn how to organize your code into reusable pieces and handle mistakes gracefully. These skills help you write cleaner, safer, and more professional Python programs.
+In Lesson 4, you'll learn how to make your programs smarter by controlling how and when code runs. You'll use **if statements** to make decisions and **loops** to repeat actions—essential tools for solving real-world problems with Python!
+
+---
 
 ## What You’ll Learn
 
-- **Importing Modules**
-  - What modules are and why they matter
-  - Using Python’s built-in modules (`math`, `random`, etc.)
-  - How to install and use third-party modules with `pip`
-  - Creating your own modules
+### Making Decisions with If Statements
+- What is control flow?
+- How to use `if`, `elif`, and `else` to make decisions
+- Using comparison operators (`==`, `!=`, `<`, `>`, `<=`, `>=`)
+- Combining conditions with logical operators (`and`, `or`, `not`)
+- Writing code that responds differently based on user input or data
 
-- **Error Handling**
-  - Why errors happen and how they affect your program
-  - Using `try`, `except`, and `finally` blocks
-  - Handling common errors (e.g., file not found, invalid input)
-  - Writing user-friendly error messages
+### Repeating Actions with Loops
+- What are loops and why use them?
+- How to use `for` loops to repeat actions a specific number of times
+- Looping over lists and ranges
+- How to use `while` loops to repeat actions until a condition changes
+- Common loop control keywords: `break`, `continue`, `pass`
 
-- **Practice Challenges**
-  - Exercises importing and using modules
-  - Handling errors in simple programs
-  - Mini project: Build a calculator app that handles user input errors
+### Practical Examples & Projects
+- Filtering and processing data with loops and if statements
+- Counting, searching, and summarizing information
+- Mini project: Build a simple number guessing game or a program that analyzes a list of numbers
 
-- **Recap & Tips**
-  - How modular code and error handling prepare you for larger projects
-  - Good habits for debugging and writing reliable code
+### Debugging & Good Habits
+- Common mistakes with if statements and loops
+- How to avoid infinite loops
+- Using print statements to debug control flow
+- Writing clear, readable decision-making code
+
+### Building on Previous Lessons
+- Combining functions with control flow for smarter programs
+- Next steps: Using control flow to interact with users and process data
 
 ---
 
 ## Optional & Independent Research
 
-- **Exploring More Modules**
-  - Investigate other useful modules such as `datetime`, `os`, `sys`, or `json`
-  - Try using modules from the Python Package Index (PyPI)
-- **Advanced Error Handling**
-  - Research custom exception classes
-  - Explore how to use `raise` to create your own errors
-- **Python Documentation**
-  - Practice reading official Python docs for modules and error handling
-
-Explore these topics on your own to deepen your Python skills and discover new tools!
+- Nested if statements and loops
+- List comprehensions for compact looping
+- Practice reading official Python documentation for control flow and loops
 
 ---
 
-By the end of Lesson 3, you’ll be ready to build programs that are easier to manage, debug, and share!
+By the end of Lesson 4, you'll be able to write Python programs that make decisions and repeat actions—key skills for creating interactive, useful applications!
