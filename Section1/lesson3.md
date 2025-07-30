@@ -1,53 +1,58 @@
-# Lesson 3: Modular Programming & Error Handling in Python
+# Lesson 3: Functions in Python
 
-In Lesson 3, you’ll learn how to organize your code into reusable pieces, handle mistakes gracefully, and write programs that are easier to test, debug, and share.
+In Lesson 3, you’ll master how to break your code into reusable, reliable functions—the foundation for building readable and maintainable Python programs.
 
 ---
 
 ## What You’ll Learn
 
-### Functions
+### Understanding Functions
 - What is a function and why use them?
-- How to call a function
-- What are parameters and arguments?
+- How to define and call a function
+- The difference between parameters and arguments
 - Using default parameters and named arguments
-- **How to return values from a function**
-- **Understanding local and global variables (scope)**
-- **How to write helpful comments and docstrings for your functions**
 
-### Importing Modules
-- What modules are and why they matter
-- Using Python’s built-in modules (`math`, `random`, etc.)
-- How to install and use third-party modules with `pip`
-- Creating your own modules
-- **How to organize your code: keeping functions in separate files and importing them**
+### Return Values
+- How to use `return` to get results from a function
+- What happens when you don’t use `return`
+- Returning multiple values
 
-### Error Handling
-- Why errors happen and how they affect your program
-- Using `try`, `except`, and `finally` blocks
-- Handling common errors (e.g., file not found, invalid input, `TypeError`, `ValueError`)
-- Writing user-friendly error messages
+### Variable Scope
+- Local vs. global variables
+- How scope affects your code and avoids bugs
+- Modifying global variables inside functions
 
-### Practice & Testing
-- Exercises importing and using modules
-- Handling errors in simple programs
-- **Testing your functions (try calling them with different inputs)**
-- Mini project: Build a calculator app that handles user input errors
+### Writing Clear Functions
+- Adding comments to explain your code
+- Using docstrings to document what your function does, its inputs, and outputs
+- Choosing clear, descriptive function names
 
-### Recap & Tips
-- How modular code and error handling prepare you for larger projects
-- Good habits for debugging and writing reliable code
-- **Where to get help: Python documentation, Stack Overflow, online tutorials**
+### Working with Data in Functions
+- Passing and returning lists, dictionaries, and other data types
+- Converting and manipulating data inside functions
+
+### Testing & Debugging Functions
+- How to test your functions with different inputs
+- Printing outputs and using assertions
+- Common mistakes and how to fix them
+
+### Practice & Projects
+- Exercises for writing and improving functions
+- Mini project: Build a set of useful utility functions (e.g., text formatting, math calculations, list processing)
+
+### Good Habits & Next Steps
+- Why functions make your code easier to debug, test, and reuse
+- Tips for writing reliable functions
+- Where to get help: Python documentation, Stack Overflow, online tutorials
 
 ---
 
 ## Optional & Independent Research
 
-- Exploring more modules such as `datetime`, `os`, `sys`, or `json`
-- Try using modules from the Python Package Index (PyPI)
-- Advanced error handling: custom exception classes and the `raise` statement
-- Practice reading official Python docs for modules and error handling
+- Learn about lambda (anonymous) functions
+- Explore built-in Python functions and how to use them
+- Practice reading Python documentation for functions
 
 ---
 
-By the end of Lesson 3, you’ll be ready to build Python programs that are easier to manage, test, debug, and share!
+By the end of Lesson 3, you’ll be able to write clear, reusable, and well-tested functions—essential skills for any Python programmer!
