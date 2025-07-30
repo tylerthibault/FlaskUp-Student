@@ -1,6 +1,7 @@
 # Lesson 2 Assignment: Working with Data in Python
 
 Test your knowledge of Python data types and structures! Complete all problems to reinforce what you've learned about strings, numbers, booleans, lists, and dictionaries.
+
 **NOTE**: If you are going to use build in methods to solve the problems then be ready to explain what the built in method does. 
 
 ---
