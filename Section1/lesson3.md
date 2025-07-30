@@ -4,6 +4,14 @@ In Lesson 3, you’ll learn how to organize your code into reusable pieces and h
 
 ## What You’ll Learn
 
+- **Function**
+  - What is a function
+  - How to call a function
+  - What is a parameter
+  - What is an argument
+  - How to have a default parameter
+  - How to have a named argument
+
 - **Importing Modules**
   - What modules are and why they matter
   - Using Python’s built-in modules (`math`, `random`, etc.)
