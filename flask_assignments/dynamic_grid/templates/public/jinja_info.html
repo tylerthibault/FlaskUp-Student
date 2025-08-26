@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Grid</title>
+</head>
+<body>
+    <h1>Dynamic Grid!!</h1>
+
+    <!-- var -->
+    {{ name }}
+
+    {% set food = ["banana", "tomato", "orange"] %}
+
+    {% for item in food %}
+        <p>{{ loop.index }}: {{ item }}</p>
+    {% endfor %}
+
+    <p>*************************</p>
+
+    {% for i in range(food | length) %}
+        {% set item = food[i] %}
+        <p>{{ i }}: {{ item }}</p>
+    {% endfor %}
+
+    <p>*************************</p>
+
+    <!-- for loop -->
+    {% for i in range(10) %}
+
+    {% set num = loop.index0 %}
+
+    {% if num == 5 %}
+    <p>Bob</p>
+    {% elif num == 8 %}
+    <p>Tom</p>
+    {% else %}
+    <p>{{ num }}</p>
+    {% endif %}
+    
+    {% endfor %}
+    
+
+</body>
+</html>
